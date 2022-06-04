@@ -12,6 +12,9 @@ export default function HomePage(params) {
             A tech enthusiastic, having knowledge and interest in <br />
             multiple programming languages and domains
           </p>
+
+          <button className="button">Explore Projects ↓ </button>
+          <button className="button2">Github Profile</button>
         </div>
       </section>
     </>
