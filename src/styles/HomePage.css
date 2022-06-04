@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+#dev_name{
+    font-size: xx-large;
+    font-weight: bolder;
+    /* font-weight: bolder; */
+}
+
+#dev_line{
+    padding-top: 16px;
+    opacity: 80%;
+    font-weight: lighter;
+}
+
+.details{
+    top: 50%;
+    transform: translate(20%, -50%);
+    /* border: 2px solid red; */
+    
+    position: absolute;   
+}
+
+#id{
+    position: absolute;
+}
