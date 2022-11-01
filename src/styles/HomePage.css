@@ -3,6 +3,10 @@
     padding: 0 ;
 }
 
+html{
+    width: 100%;
+}
+
 #dev_name{
     font-size: xx-large;
     font-weight: bolder;
@@ -16,16 +20,19 @@
 }
 
 .details{
-    top: 50%;
-    transform: translate(20%, -50%);
+    /* top: 50%; */
+    /* transform: translate(20%, -50%); */
+    margin-top: 30vh;
+    margin-left: 8%;
+    z-index: 1;
     /* border: 2px solid red; */
     
     position: absolute;   
 }
 
-#id{
+/* #id{
     position: absolute;
-}
+} */
 
 .button, .button2{
     border-radius: 20px;
@@ -36,7 +43,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border: none;
-    background-image: linear-gradient(#FF4A11,#E47958);
+    background-image: linear-gradient(90deg,#FF4A11,#E47958);
 }
 
 .button2{
@@ -47,3 +54,36 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#side_circles{
+    height: 140vh;
+    width: auto;
+    transform: translate(-50%,-20%);
+    opacity: 20%;
+    position: absolute;   
+}
+
+.index_terminal__1dSq1{
+    max-height: 60vh;
+    min-height: 60vh;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+        #side_circles {
+            transform: translate(-90%,-20%);
+      }
+    }
